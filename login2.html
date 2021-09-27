@@ -1,0 +1,102 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #4B0082;
+}
+
+.active {
+  background-color: #BA55D3;
+}
+header {
+	text-align: center;
+	background-color: #D8BFD8;
+}
+section {
+	background-color: #DCDCDC;
+}
+footer {
+	text-align: center;
+	color: white;
+	background-color: #483D8B;
+}
+</style>
+</head>
+<body>
+<header>
+	<h1> Pemrograman WEB </h1>
+ <ul>
+  <li> <a href="menu3.html"> Home </a></li>
+  <li><a class="active" href="login2.html"> Daftar </a></li>
+  <li><a href="tabelrekap.html"> Presensi </a></li>
+  <li><a href="#"> Logout </a></li>
+ </ul>
+</header>
+
+<section>
+	<form action="#">
+	<h2> FORM DAFTAR </h2>
+	<label> Nama Depan </label><br>
+	<input type="text">  
+
+	<label> Nama Belakang </label>
+	<input type="text"> <br><br>
+
+	<label for="cars"> Tempat tanggl lahir : </label>
+  	<select id="cars" name="cars">
+    <option value="Madiun">Madiun</option>
+    <option value="Magetan">Magetan</option>
+    <option value="Jakarta">Jakarta</option>
+    <option value="Surabaya">Surabaya</option>
+</select><br><br>
+
+<label> Tanggal lahir </label>
+	<input type="date"> <br><br>
+
+<label> Jenis kelamin </label>
+	<input type="radio" id="Laki-laki">
+	<label> Laki-laki </label>
+	<input type="radio" id="Perempuan">
+	<label> Perempuan </label><br><br>
+
+<label> Alamat </label>
+	<textarea name="message" rows="10" cols="30"></textarea> <br><br>
+
+<label> Hobby </label>
+	<input type="checkbox" id="Olahraga" value="Olahraga">
+	<label>Olahraga</label>
+	<input type="checkbox" id="Membaca" value="Membaca">
+	<label>Membaca</label>
+	<input type="checkbox" id="Traveling" value="Traveling">
+	<label>Traveling</label><br><br>
+
+	<input type="Submit" value="Submit ">
+</form>
+</section>
+
+<footer>
+	<p> Created By Erina <br>
+	XII RPL 1</p>
+</footer>
+</body>
+</html>
